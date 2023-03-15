@@ -1,4 +1,4 @@
-import {ArrowLeft, MoreVertical} from 'react-feather'
+import {ArrowLeft, MoreVertical, Play, SkipBack, SkipForward} from 'react-feather'
 
 export default function Home() {
     return (
@@ -13,8 +13,8 @@ export default function Home() {
                     <ArrowLeft/>
                 </div>
                 <div className={"flex flex-col items-center"}>
-                    <h3 className={"text-xs text-slate-600 tracking-[0.015rem]"}>Now Playing from Podcast</h3>
-                    <h1 className={"text-xl font-bold text-slate-700 uppercase tracking-tighter"}>Thomas Larson</h1>
+                    <h3 className={"text-xs text-slate-600 tracking-tight"}>Now Playing from Podcast</h3>
+                    <h1 className={"text-lg font-bold text-slate-700 uppercase tracking-tighter"}>Thomas Larson</h1>
                 </div>
                 <div className={"p-2.5 flex justify-center items-center bg-white rounded-full"}>
                     <MoreVertical/>
